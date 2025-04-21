@@ -1,6 +1,5 @@
 # Journly
 
-![Journly Banner](https://raw.githubusercontent.com/yourusername/Journly/main/public/banner.png)
 
 A modern, privacy-focused journaling app for tracking your thoughts, moods, and memories — built with Next.js, React, Prisma, and Clerk.
 
@@ -61,18 +60,6 @@ A modern, privacy-focused journaling app for tracking your thoughts, moods, and 
 - [Tailwind CSS](https://tailwindcss.com/)
 - [shadcn/ui](https://ui.shadcn.com/)
 
-## 📝 Environment Variables
-```env
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
-DATABASE_URL=
-PIXABAY_API_KEY=
-ARCJET_KEY=
-```
 
 ## 💡 Troubleshooting
 - **Hydration errors**: All dates are formatted on the server for consistency.
